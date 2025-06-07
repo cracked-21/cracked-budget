@@ -58,7 +58,7 @@ Upon launch, you'll be asked if you'd like to load an existing file or create a 
 | 2      | View all transaction history     |
 | 3      | Manage buckets                   |
 | 4      | Edit a transaction timestamp     |
-| 5      | Help (coming soon)               |
+| 5      | Help                             |
 | 6      | Quit the app                     |
 
 ---
