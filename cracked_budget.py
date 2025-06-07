@@ -560,7 +560,7 @@ def tx_logger(data):
                     continue
 
             elif main_question == 6:
-                # 5 would quit.
+                # 6 would quit.
                 sys.exit(0)
 
             else: 
