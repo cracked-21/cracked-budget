@@ -119,4 +119,4 @@ Clean, simple, local budget tracking. Zero bloat, zero sync, total control.
 
 ## 📄 License
 
-MIT License — Do whatever you want to my code. Anything you do is YOUR responsibility.
+MIT License — Do whatever you want to with my code. Anything you do is YOUR responsibility.
