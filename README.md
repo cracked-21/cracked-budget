@@ -1,4 +1,4 @@
-# 💸 cracked-budget CLI Tracker
+# 💸 cracked_budget CLI Tracker
 
 ```
   /$$$$$$  /$$$$$$$   /$$$$$$   /$$$$$$  /$$   /$$ /$$$$$$$$ /$$$$$$$        /$$$$$$$  /$$   /$$ /$$$$$$$   /$$$$$$  /$$$$$$$$ /$$$$$$$$
@@ -12,7 +12,7 @@
                                                                     |______/                                                            
 ```
 
-cracked-budget is a **feature-complete** command-line app for tracking income, expenses, and logs using labeled buckets. Built to be simple, functional, and fast — with no unnecessary bloat.
+cracked_budget is a **feature-complete** command-line app for tracking income, expenses, and logs using labeled buckets. Built to be simple, functional, and fast — with no unnecessary bloat.
 
 ---
 
