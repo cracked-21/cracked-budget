@@ -97,7 +97,6 @@ Each transaction is timestamped (`YYYY-MM-DD` format), and editable.
 ```bash
 .
 ├── cracked_budget.py       # Main Python script
-├── cracked_budget.json     # Data file (auto-generated)
 └── README.md               # You're here
 ```
 
