@@ -19,8 +19,8 @@ def load_or_create():
             return data
         
     except FileNotFoundError:
-        print("Budget file must be named 'cracked-budget.json' and in the same directory as this program.\n")
-        filenotfound = input("No budget file found, do you want to create a new one? y/n: ").strip().lower()
+        print("\nA 'cracked-budget.json' file is needed for this program to work, and it appears that it's not in this directory. \n")
+        filenotfound = input("Do you want to generate one? If you already have one, input 'n', and copy it to this program's direcrory: y/n: ").strip().lower()
 
         if filenotfound != "y":
             print("\nExiting program.\n")
