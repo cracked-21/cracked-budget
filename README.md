@@ -1,18 +1,17 @@
-# 💸 cracked_budget CLI Tracker
+# 💸 cracked-budget CLI Tracker
 
 ```
-  /$$$$$$  /$$$$$$$   /$$$$$$   /$$$$$$  /$$   /$$ /$$$$$$$$ /$$$$$$$        /$$$$$$$  /$$   /$$ /$$$$$$$   /$$$$$$  /$$$$$$$$ /$$$$$$$$
- /$$__  $$| $$__  $$ /$$__  $$ /$$__  $$| $$  /$$/| $$_____/| $$__  $$      | $$__  $$| $$  | $$| $$__  $$ /$$__  $$| $$_____/|__  $$__/
-| $$  \__/| $$  \ $$| $$  \ $$| $$  \__/| $$ /$$/ | $$      | $$  \ $$      | $$  \ $$| $$  | $$| $$  \ $$| $$  \__/| $$         | $$   
-| $$      | $$$$$$$/| $$$$$$$$| $$      | $$$$$/  | $$$$$   | $$  | $$      | $$$$$$$ | $$  | $$| $$  | $$| $$ /$$$$| $$$$$      | $$   
-| $$      | $$__  $$| $$__  $$| $$      | $$  $$  | $$__/   | $$  | $$      | $$__  $$| $$  | $$| $$  | $$| $$|_  $$| $$__/      | $$   
-| $$    $$| $$  \ $$| $$  | $$| $$    $$| $$\  $$ | $$      | $$  | $$      | $$  \ $$| $$  | $$| $$  | $$| $$  \ $$| $$         | $$   
-|  $$$$$$/| $$  | $$| $$  | $$|  $$$$$$/| $$ \  $$| $$$$$$$$| $$$$$$$/      | $$$$$$$/|  $$$$$$/| $$$$$$$/|  $$$$$$/| $$$$$$$$   | $$   
- \______/ |__/  |__/|__/  |__/ \______/ |__/  \__/|________/|_______//$$$$$$|_______/  \______/ |_______/  \______/ |________/   |__/   
-                                                                    |______/                                                            
+  /$$$$$$  /$$$$$$$   /$$$$$$   /$$$$$$  /$$   /$$ /$$$$$$$$ /$$$$$$$          /$$$$$$$  /$$   /$$ /$$$$$$$   /$$$$$$  /$$$$$$$$ /$$$$$$$$
+ /$$__  $$| $$__  $$ /$$__  $$ /$$__  $$| $$  /$$/| $$_____/| $$__  $$        | $$__  $$| $$  | $$| $$__  $$ /$$__  $$| $$_____/|__  $$__/
+| $$  \__/| $$  \ $$| $$  \ $$| $$  \__/| $$ /$$/ | $$      | $$  \ $$        | $$  \ $$| $$  | $$| $$  \ $$| $$  \__/| $$         | $$   
+| $$      | $$$$$$$/| $$$$$$$$| $$      | $$$$$/  | $$$$$   | $$  | $$ /$$$$$$| $$$$$$$ | $$  | $$| $$  | $$| $$ /$$$$| $$$$$      | $$   
+| $$      | $$__  $$| $$__  $$| $$      | $$  $$  | $$__/   | $$  | $$|______/| $$__  $$| $$  | $$| $$  | $$| $$|_  $$| $$__/      | $$   
+| $$    $$| $$  \ $$| $$  | $$| $$    $$| $$\  $$ | $$      | $$  | $$        | $$  \ $$| $$  | $$| $$  | $$| $$  \ $$| $$         | $$   
+|  $$$$$$/| $$  | $$| $$  | $$|  $$$$$$/| $$ \  $$| $$$$$$$$| $$$$$$$/        | $$$$$$$/|  $$$$$$/| $$$$$$$/|  $$$$$$/| $$$$$$$$   | $$   
+ \______/ |__/  |__/|__/  |__/ \______/ |__/  \__/|________/|_______/         |_______/  \______/ |_______/  \______/ |________/   |__/                                                  
 ```
 
-cracked_budget is a **feature-complete** command-line app for tracking income, expenses, and logs using labeled buckets. Built to be simple, functional, and fast — with no unnecessary bloat.
+cracked-budget is a **feature-complete** command-line app for tracking income, expenses, and logs using labeled buckets. Built to be simple, functional, and fast — with no unnecessary bloat.
 
 ---
 
@@ -25,7 +24,7 @@ cracked_budget is a **feature-complete** command-line app for tracking income, e
 - 🔁 Move funds between buckets
 - 🧾 View all transaction history
 - 🕒 Modify transaction timestamps
-- 💾 Autosaves to `cracked_budget.json`
+- 💾 Autosaves to `cracked-budget.json`
 - 🔢 Float support with smart formatting
 
 ---
@@ -34,16 +33,16 @@ cracked_budget is a **feature-complete** command-line app for tracking income, e
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/cracked-21/cracked_budget.git
-   cd cracked_budget
+   git clone https://github.com/cracked-21/cracked-budget.git
+   cd cracked-budget
    ```
 
 2. Run it:
    ```bash
-   python cracked_budget.py
+   python cracked-budget.py
    ```
 
-3. Your data will be saved in `cracked_budget.json`.
+3. Your data will be saved in `cracked-budget.json`.
 
 ---
 
@@ -97,7 +96,7 @@ Each transaction is timestamped (`YYYY-MM-DD` format), and editable.
 
 ```bash
 .
-├── cracked_budget.py       # Main Python script
+├── cracked-budget.py       # Main Python script
 └── README.md               # You're here
 ```
 
