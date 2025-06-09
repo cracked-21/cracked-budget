@@ -13,13 +13,13 @@ def load_or_create():
     }
     
     try:
-        with open("cracked_budget.json", "r") as data_file:
+        with open("cracked-budget.json", "r") as data_file:
             data = json.load(data_file)
             print("\nFile found!\nLoading environment...")
             return data
         
     except FileNotFoundError:
-        print("Budget file must be named 'cracked_budget.json' and in the same directory as this program.\n")
+        print("Budget file must be named 'cracked-budget.json' and in the same directory as this program.\n")
         filenotfound = input("No budget file found, do you want to create a new one? y/n: ").strip().lower()
 
         if filenotfound != "y":
@@ -86,7 +86,7 @@ def load_or_create():
             remaining_balance -= bucket_money_amt
             data["buckets"][bucket_name] = bucket_money_amt
 
-        with open("cracked_budget.json", "w") as data_file:
+        with open("cracked-budget.json", "w") as data_file:
             json.dump(data, data_file, indent=4)
         print("\nBudget file creation successful! Loading environment...\n")
         return data
@@ -145,7 +145,7 @@ def tx_logger(data):
                     })
 
                     # save data.
-                    with open("cracked_budget.json", "w") as data_file:
+                    with open("cracked-budget.json", "w") as data_file:
                         json.dump(data, data_file, indent=4)
                     print("Transaction added.\n")
 
@@ -234,7 +234,7 @@ def tx_logger(data):
                     })
 
                     # save data.
-                    with open("cracked_budget.json", "w") as data_file:
+                    with open("cracked-budget.json", "w") as data_file:
                         json.dump(data, data_file, indent=4)
                     print("Transaction added.\n")
                    
@@ -298,7 +298,7 @@ def tx_logger(data):
                                 })
 
                                 # save data
-                                with open("cracked_budget.json", "w") as data_file:
+                                with open("cracked-budget.json", "w") as data_file:
                                     json.dump(data, data_file, indent=4)
                                 print("\nBucket added successfully.\n")
                             
@@ -333,7 +333,7 @@ def tx_logger(data):
                             })
                             
                             # save data.
-                            with open("cracked_budget.json", "w") as data_file:
+                            with open("cracked-budget.json", "w") as data_file:
                                 json.dump(data, data_file, indent=4)
                             print("\nBucket renamed successfully.\n")
                                 
@@ -415,7 +415,7 @@ def tx_logger(data):
                                 })
 
                                 # update data.
-                                with open("cracked_budget.json", "w") as data_file:
+                                with open("cracked-budget.json", "w") as data_file:
                                     json.dump(data, data_file, indent=4)
                                 print("\nBucket value updated successfully.")
                                 break
@@ -456,7 +456,7 @@ def tx_logger(data):
                                 del data["buckets"][chosen_execution_bucket]
                             
                                 # save data.
-                                with open("cracked_budget.json", "w") as data_file:
+                                with open("cracked-budget.json", "w") as data_file:
                                     json.dump(data, data_file, indent=4)
                                     
                                 print("\nBucket deleted successfully.\n")
@@ -521,7 +521,7 @@ def tx_logger(data):
                 chosen_tx["timestamp"] = new_timestamp
 
                 # save data.
-                with open("cracked_budget.json", "w") as data_file:
+                with open("cracked-budget.json", "w") as data_file:
                     json.dump(data, data_file, indent=4)
                 print("\nBucket renamed successfully.\n")
                     
