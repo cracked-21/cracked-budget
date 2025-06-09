@@ -27,7 +27,7 @@ def load_or_create():
             sys.exit(0)
 
         try:
-            balance_amt = float(input("Input how much money you want to track across everything: "))
+            balance_amt = float(input("\nInput how much money you want to track across everything: "))
             
             if not balance_amt:
                 print("\nInput cannot be empty.\n")
@@ -43,7 +43,7 @@ def load_or_create():
             return
 
         data["starting_balance"] = balance_amt
-        print("\nBuckets are labeled containers used to allocate portions of your total money for a purpose/goal")
+        print("\nBuckets are labeled containers used to allocate portions of your total money for a purpose/goal-")
 
         try:
             bucket_amt = int(input("How many buckets do you have/want to maintain? You can have as many as you want: ").strip())
@@ -60,7 +60,7 @@ def load_or_create():
         for bucket_maker in range(1, bucket_amt + 1):
 
             while True:
-                bucket_name = input(f"\nWhat's the name of bucket {bucket_maker}: ").strip().lower().title()
+                bucket_name = input(f"\nWhat do you want to call bucket {bucket_maker}? ").strip().lower().title()
                 if bucket_name == "":
                     bucket_name = "All"
 
@@ -70,7 +70,7 @@ def load_or_create():
                 break
 
             try:
-                bucket_money_amt = float(input(f"\nHow much money is in '{bucket_name}': ").strip())
+                bucket_money_amt = float(input(f"\nHow much money do you want to allocate to this bucket? ").strip())
                 if bucket_money_amt < 0:
                     print("Invalid input; must be non-negative.\n")
                     continue
@@ -88,7 +88,7 @@ def load_or_create():
 
         with open("cracked-budget.json", "w") as data_file:
             json.dump(data, data_file, indent=4)
-        print("\nBudget file creation successful! Loading environment...\n")
+        print("\nBudget file generation successful! Loading environment...")
         return data
             
 
